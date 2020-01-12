@@ -5,16 +5,16 @@
 
 **prerequisites**
 
- - Install Node & NPM (preffered Stable Version)
+ - Install Node & NPM (preffered: Stable Version)
  - Mac OS
 
 
 Do the following, to run it on your machine, (Only once)
 
 
-1. Clone the repo 
+1. ``` git clone https://github.com/ibrahim45/github-contributions-desktop-app.git ```
 
-2. npm i 
+2. ```npm i ```
 
 3. Update your github username in ```app/js/github.js```
 
