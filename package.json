@@ -1,0 +1,36 @@
+{
+  "name": "github-contrib",
+  "productName": "Personal Contribution",
+  "version": "1.0.0",
+  "description": "show github contributions",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "electron-builder": {
+    "appId": "79657",
+    "category": "your.app.category.type",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "^21.2.0"
+  }
+}

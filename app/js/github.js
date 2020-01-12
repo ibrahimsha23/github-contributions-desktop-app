@@ -1,0 +1,1 @@
+    GitHubCalendar(".calendar", "your-username", { responsive: true });
