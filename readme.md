@@ -1,4 +1,4 @@
-# Github Personal Contribution 
+# Github Personal Contribution Desktop App
 
     View your github contributions level, without login into github.com site.
 
@@ -29,7 +29,7 @@ Do the following, to run it on your machine, (Only once)
 # Final Output
 
 <div align="center">
-    <img src="app/assets/sample.png" width="400px"</img> 
+    <img src="https://raw.githubusercontent.com/ibrahim45/github-contributions-desktop-app/master/app/assets/sample.png" width="400px"</img> 
 </div>
 
 
